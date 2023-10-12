@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Young+Serif&display=swap');
+
+
+body{
+    background-image: url(/img/eladio1.jpg);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: repeat;
+    background-size: 50%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Young Serif', serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    align-items: center;
+    height: 80px;
+    padding: 10px;
+    -webkit-box-shadow: -1px 7px 45px -8px rgba(0,0,0,0.84);
+    -moz-box-shadow: -1px 7px 45px -8px rgba(0,0,0,0.84);
+    box-shadow: -1px 7px 45px -8px rgba(0,0,0,0.84);
+}
+.title_principal{
+    display: flex;
+    font-size: 18px;
+}
+
+.logos_principal{
+    display: flex;
+}
+
+a{
+    color: black;
+}
+
+h2 a{
+    padding-right: 50px;
+    
+}
+
+h2 a:hover{
+    color: aqua;
+}
